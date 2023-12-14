@@ -1,12 +1,12 @@
 
 import './App.css';
 import Todo from './Todo';
-import SortList from './sortList';
+import './My.css';
 function App() {
   return (
     <div className="App">
      <h1>To do App</h1>
-     <Todo/>
+     <Todo className="My" />
   
     </div>
   );
